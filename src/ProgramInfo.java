@@ -103,6 +103,8 @@ public class ProgramInfo {
         public void printClosing(){
             
             System.out.println("end of processing :o");
+            fout.print("end of processing :o");
+            fout.close();  
             
         } // end printBanner    
         
